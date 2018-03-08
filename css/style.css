@@ -1,0 +1,258 @@
+body {
+  font-size: 25px;
+  font-family: Impact, Charcoal, sans-serif;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+}
+
+#Main-Header h1 {
+  text-align: center;
+}
+
+.Formulier {
+  width: 850px;
+  height: 420px;
+  margin: 0 auto;
+  background-color: #c0bec6;
+  border-radius: 15px;
+}
+
+.Formulier h1 {
+  text-align: center;
+}
+
+.first-name {
+  float: left;
+  font-size: 20px;
+  padding-left: 44px;
+}
+
+#fname {
+  width: 123px;
+  height: 25px;
+}
+
+#fname:hover {
+  background-color: #b6b6b6;
+}
+
+.insertion {
+  float: left;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#insertion {
+  width: 70px;
+  height: 25px;
+}
+
+#insertion:hover {
+  background-color: #b6b6b6;
+}
+
+.last-name {
+  float: left;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#lname {
+  width: 150px;
+  height: 25px;
+}
+
+#lname:hover {
+  background-color: #b6b6b6;
+}
+
+.e-mail {
+  float: left;
+  font-size: 20px;
+  margin-left: 45px;
+}
+
+#email {
+  width: 140px;
+  height: 25px;
+}
+
+#email:hover {
+  background-color: #b6b6b6;
+}
+
+.webadress {
+  float: left;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+#SiteAdres {
+  width: 120px;
+  height: 25px
+}
+
+#SiteAdres:hover {
+  background-color: #b6b6b6;
+}
+
+.messageTitle {
+  float: left;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+#TitleMessage {
+  width: 120px;
+  height: 25px
+}
+
+#TitleMessage:hover {
+  background-color: #b6b6b6;
+}
+
+.message h1 {
+  font-size: 20px;
+}
+
+#subject {
+  height: 150px;
+  width: 760px;
+  margin-left: 40px;
+  resize: none;
+  border-radius: 5px;
+  background-color: #e0e0e0;
+}
+
+#subject:hover {
+  background-color: #b6b6b6;
+}
+
+.message label {
+  width: 750px;
+}
+
+#SubmitButton {
+  float: left;
+  background: #e0e0e0;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 0 auto;
+  border-style: solid;
+  border-color: #139ab4;
+  border-radius: 10px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+#SubmitButton:hover {
+  background-color: #4c90e9;
+}
+
+input[type=text] {
+  border-radius: 5px;
+  background-color: #e0e0e0;
+}
+
+input[type=email] {
+  border-radius: 5px;
+  background-color: #e0e0e0;
+}
+
+.Commands {
+  width: 850px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #c0bec6;
+  border-radius: 15px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  overflow-y: scroll;
+}
+
+.Commands h1 {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.FirstN {
+  float: left;
+}
+
+.LastN {
+  float: left;
+}
+
+.Message {
+  float: right;
+}
+
+.comment-firstname {
+  margin-left: 10px;
+}
+
+.comment-lastname {
+  width: 110px;
+}
+
+.comment-website {
+  float: left;
+}
+
+#comment-Title {
+  font-size: 22px;
+}
+
+.comment-message {
+  font-size: 20px;
+}
+
+.footer-main {
+  width: 100%;
+  height: 100px;
+  background-color: #50504f;
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: -10px;
+  margin-top: 30px;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
