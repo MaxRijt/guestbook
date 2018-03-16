@@ -79,7 +79,7 @@ if(isset($_POST['submit'])) {
     </div>
     <div class="Formulier">
       <form action="" action="" method="POST">
-        <h1>Post your command</h1>
+        <p>Post your command</p>
         <div class="first-name">
           <label for="fname">First Name:</label>
           <input type="text" id="fname" required name="firstname" placeholder="Your name..">*
@@ -120,12 +120,16 @@ if(isset($_POST['submit'])) {
           <a><input type="submit" name="submit" value="Submit" id="SubmitButton"></a>
         </div>
 
+        <div class="Clear">
+          <a><input type="button" value="Reset" id="ClearButton" onclick="clearContent()"></a>
+        </div>
+
      </form>
     </div>
 
     <div class="Commands">
 
-      <h1>Posted commands</h1>
+      <p>Posted commands</p>
 
 
 
