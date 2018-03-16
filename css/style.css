@@ -62,10 +62,6 @@ body {
   height: 25px;
 }
 
-#lname:hover {
-  background-color: #b6b6b6;
-}
-
 .e-mail {
   float: left;
   font-size: 20px;
