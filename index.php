@@ -117,11 +117,11 @@ if(isset($_POST['submit'])) {
 
         <div class="Submit">
           <input type="hidden" required name="guestbookid"/>
-          <a><input type="submit" name="submit" value="Submit" id="SubmitButton"></a>
+          <a><input type="submit" name="submit" value="Submit" id="SubmitButton" onclick="checkTexteraa()"></a>
         </div>
 
         <div class="Clear">
-          <a><input type="button" value="Reset" id="ClearButton" onclick="clearContent()"></a>
+          <a><input type="button" value="Reset" id="ClearButton"></a>
         </div>
 
      </form>
